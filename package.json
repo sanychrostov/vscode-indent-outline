@@ -1,0 +1,18 @@
+{
+	"name": "vscode-indent-outline",
+	"displayName": "Indents outline",
+	"description": "Provide outline view by default indent folding for plain text.",
+	"version": "0.6.21",
+	"publisher": "sanychrostov",
+	"license": "GPL",
+	"homepage": "https://github.com/sanychrostov/vscode-indent-outline",
+	"repository": "https://github.com/sanychrostov/vscode-indent-outline.git",
+	"engines": { "vscode": "^1.108.1" },
+	"keywords": [ "txt", "text", "plaintext", "outline", "indent", "folding" ],
+	"categories": [ "Other" ],
+	"activationEvents": [ "onLanguage:plaintext" ],
+	"main": "./extension.js",
+	"contributes": {},
+	"scripts": {},
+	"devDependencies": {}
+}
