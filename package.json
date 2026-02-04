@@ -14,5 +14,5 @@
 	"main": "./extension.js",
 	"contributes": {},
 	"scripts": {},
-	"devDependencies": {}
+	"dependencies": {}
 }

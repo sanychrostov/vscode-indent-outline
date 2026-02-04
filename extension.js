@@ -1,3 +1,4 @@
+"use strict" ; Object.defineProperty(exports, "__esModule", { value: true }) ; const vscode = require("vscode") ;
 class TextDocumentSymbolProvider {
 	async provideDocumentSymbols(document, token) {
 		let ranges = await vscode.commands.executeCommand('vscode.executeFoldingRangeProvider', document.uri) ;
